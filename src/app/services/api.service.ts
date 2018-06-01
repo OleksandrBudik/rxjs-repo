@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { of } from 'rxjs';
 import { map, mergeMap, concatMap, concatAll, catchError } from 'rxjs/operators';
 import { forkJoin } from 'rxjs';
-import { from } from 'rxjs';
+import { from, fromEvent } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'

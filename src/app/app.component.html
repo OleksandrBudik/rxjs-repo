@@ -2,7 +2,17 @@
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
-  </h1>  
+  </h1>
+  Search:
+  <input id='query-rxjs' size='40'>
+  <select id='country-rxjs' name='country'>
+    <option value='Ukraine'>Ukraine</option> 
+    <option value='Canada' selected>Canada</option>
+    <option value='USA'>USA</option>
+  </select>
+  <div class='query'>
+    Request with query: {{ fullQuery.query }} {{ fullQuery.country }} has been sent
+  </div>
 </div>
 
 
